@@ -115,5 +115,6 @@ if upload_file:
         reranking(query,retrived_text)
        
         answer=get_ans(query=query,ranked_text=ranked_text)
-        st.subheader("Anwer")
+        st.subheader("Answer")
         st.write(word_warp(answer))
+
